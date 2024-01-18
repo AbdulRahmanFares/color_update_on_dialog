@@ -4,7 +4,15 @@ import 'package:flex_color_picker/flex_color_picker.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class ColorPickerDialog extends StatefulWidget {
-  const ColorPickerDialog({super.key});
+
+  final Color initialColor;
+  final Function(Color) onColorChanged;
+  
+  const ColorPickerDialog({
+    required this.initialColor,
+    required this.onColorChanged,
+    super.key
+  });
 
   @override
   State<ColorPickerDialog> createState() => _ColorPickerDialogState();
@@ -14,10 +22,18 @@ class _ColorPickerDialogState extends State<ColorPickerDialog> {
 
   final obj = Constants();
   Color containerColor = Colors.grey; // Initial color
+  Color selectedColor = Colors.grey; // Temporary variable to store the selected color
+
+  @override
+  void initState() {
+    super.initState();
+    containerColor = widget.initialColor; // Set initial color when the dialog is created
+  }
 
   void changeColor(Color color) {
     setState(() {
-      containerColor = color;
+      // Update the temporary variable only when a color is selected
+      selectedColor = color;
     });
   }
 
@@ -131,8 +147,8 @@ class _ColorPickerDialogState extends State<ColorPickerDialog> {
                               ElevatedButton(
                                 onPressed: () {
                                   setState(() {
-                                    // Update the selectedColor when Ok button is pressed
-                                    
+                                    // Update the containerColor with the selectedColor when Ok button is pressed
+                                    containerColor = selectedColor;                                    
                                   });
                                   Navigator.pop(context); // Close the color picker dialog
                                 },

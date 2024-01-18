@@ -4,19 +4,19 @@
 
 ## Screenshots
 
-<img src="https://github.com/AbdulRahmanFares/animated_split_cam_flutter/blob/main/screenshots/color_update_on_dialog_1.png" width="400">
+<img src="https://github.com/AbdulRahmanFares/color_update_on_dialog/blob/main/screenshots/color_update_on_dialog_1.png" width="400">
 
-<img src="https://github.com/AbdulRahmanFares/animated_split_cam_flutter/blob/main/screenshots/color_update_on_dialog_2.png" width="400">
+<img src="https://github.com/AbdulRahmanFares/color_update_on_dialog/blob/main/screenshots/color_update_on_dialog_2.png" width="400">
 
-<img src="https://github.com/AbdulRahmanFares/animated_split_cam_flutter/blob/main/screenshots/color_update_on_dialog_3.png" width="400">
+<img src="https://github.com/AbdulRahmanFares/color_update_on_dialog/blob/main/screenshots/color_update_on_dialog_3.png" width="400">
 
-<img src="https://github.com/AbdulRahmanFares/animated_split_cam_flutter/blob/main/screenshots/color_update_on_dialog_4.png" width="400">
+<img src="https://github.com/AbdulRahmanFares/color_update_on_dialog/blob/main/screenshots/color_update_on_dialog_4.png" width="400">
 
-<img src="https://github.com/AbdulRahmanFares/animated_split_cam_flutter/blob/main/screenshots/color_update_on_dialog_5.png" width="400">
+<img src="https://github.com/AbdulRahmanFares/color_update_on_dialog/blob/main/screenshots/color_update_on_dialog_5.png" width="400">
 
-<img src="https://github.com/AbdulRahmanFares/animated_split_cam_flutter/blob/main/screenshots/color_update_on_dialog_6.png" width="400">
+<img src="https://github.com/AbdulRahmanFares/color_update_on_dialog/blob/main/screenshots/color_update_on_dialog_6.png" width="400">
 
-<img src="https://github.com/AbdulRahmanFares/animated_split_cam_flutter/blob/main/screenshots/color_update_on_dialog_7.png" width="400">
+<img src="https://github.com/AbdulRahmanFares/color_update_on_dialog/blob/main/screenshots/color_update_on_dialog_7.png" width="400">
 
 ## Getting Started
 
